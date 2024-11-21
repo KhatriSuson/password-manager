@@ -184,7 +184,7 @@ django-react-password-manager/
 │   ├── manage.py
 │   ├── requirements.txt
 │   └── settings.py
-├── frontend/                        # React frontend project
+├── reactapp/                        # React frontend project
 │   ├── build/                        # React build folder
 │   ├── public/
 │   ├── src/
