@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import LoginForm from '../components/LoginForm';
-import { useHistory } from 'react-router-dom';
+import React from 'react';
 
 const LoginPage = () => {
-  const [user, setUser] = useState(null);
-  const history =
+  return <h2>Login Page</h2>;
+};
+
+export default LoginPage;
