@@ -2,6 +2,7 @@
 Using reactjs in front end and  Python Django in backend .
 
 <hr>
+
 # Django React Password Management Application with MFA
 
 A fully functional password management application built with **Django** (backend) and **React** (frontend), featuring **Multi-Factor Authentication (MFA)** and strong encryption for storing credentials securely.
