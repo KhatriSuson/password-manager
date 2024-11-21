@@ -55,7 +55,7 @@ MIDDLEWARE = [
 ]
 CORS_ALLOWED_ORIGINS = [
      #react dev server
-    "http://locathost:3000',
+    'http://locathost:3000',
    
 ]
 
