@@ -1,8 +1,12 @@
+from rest_framework.viewsets import ModelViewSet
+from credentials.models import Credential
+from accounts.models import UserProfile
+from django.contrib.auth.models import User
 from rest_framework import viewsets, status
 from rest_framework.response import Response
 from django.contrib.auth.models import User
 from accounts.models import UserProfile
-from .serializers import UserSerializer, UserProfileSerializer
+from accounts.serializers import UserSerializer, UserProfileSerializer
 
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
