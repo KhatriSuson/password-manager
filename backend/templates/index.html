@@ -1,0 +1,18 @@
+{% laod static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <!-- Add any global CSS links here -->
+    <link rel="stylesheet" href="path/to/bootstrap.css">  <!-- Optional if you use Bootstrap -->
+</head>
+<body>
+    <!-- React app will be mounted here -->
+    <div id="root"></div>
+
+    <!-- Include React's bundled JavaScript file -->
+    <script src="{% static 'js/main.js' %}"></script> <!-- React bundle file from static -->
+</body>
+</html>
