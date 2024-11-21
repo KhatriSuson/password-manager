@@ -1,9 +1,8 @@
 # api/urls.py
 
 from django.urls import path
-from . import views  # Assuming you have a 'views.py' in 'api'
+from . import views  # Make sure this imports the correct 'views.py'
 
 urlpatterns = [
-    # Example path for your API views
-    path('some_view/', views.some_view, name='some_view'),
+    path('some_view/', views.some_view, name='some_view'),  # Use the correct view name
 ]

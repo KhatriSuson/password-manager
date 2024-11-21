@@ -1,3 +1,7 @@
-from django.shortcuts import render
+# api/views.py
 
-# Create your views here.
+from django.http import HttpResponse
+
+# Define the 'some_view' function
+def some_view(request):
+    return HttpResponse("This is some view!")
