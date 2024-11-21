@@ -2,4 +2,4 @@
 Using reactjs in front end and  Python Django in backend .
 
 # Files & Folder Structure 
-<img src ='./file_structure_images/backend-file-structure.png' width=300 height = '300px'>
+<img src ='backend-file-structure.png' width=300 height = '300px'>
