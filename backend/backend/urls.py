@@ -1,13 +1,9 @@
-from django.urls import path, include
-from rest_framework.routers import DefaultRouter
-from accounts.views import UserViewSet, UserProfileViewSet
-from credentials.views import CredentialViewSet
+# backend/urls.py
 
-router = DefaultRouter()
-router.register('users', UserViewSet)
-router.register('profiles', UserProfileViewSet)
-router.register('credentials', CredentialViewSet)
+from django.contrib import admin
+from django.urls import path, include
 
 urlpatterns = [
-    path('api/', include(router.urls)),
+    path('admin/', admin.site.urls),
+    path('api/', include('api.urls')),  # This should point to the correct api.urls module
 ]

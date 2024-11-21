@@ -1,6 +1,4 @@
 from rest_framework.viewsets import ModelViewSet
-from credentials.models import Credential
-from accounts.models import UserProfile
 from django.contrib.auth.models import User
 from rest_framework import viewsets, status
 from rest_framework.response import Response
